@@ -1,0 +1,9 @@
+<?php
+    $name = "abdola";
+    $site = "site.com";
+
+    print "<h5>Hello " . $name . "!</h5>";
+    print welcome to site " . $site . "<br>";
+echo "<h5>Hello " . $name . "!</h5>";
+    echo “welcome to site " . $site . "<br>";
+?>
