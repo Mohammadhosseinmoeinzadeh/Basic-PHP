@@ -1,0 +1,18 @@
+example HTML=>
+
+<label for=”TF”>مقطع تحصیلی خود را انتخاب کنید :</label>
+<select id=”TF” name=”school”>
+ <option value=”10”>دهم</option>
+ <option value=”11”>یازدهم</option>
+ <option value=”12”>دوازدهم</option>
+</select>
+
+IN PHP =>
+
+<?php
+echo('<select>');
+$a=['10','11','12'];
+foreach($a as $list){
+	echo '<option value='.$list.'>'.$list.'</option>';}
+echo('</select>');
+?>
