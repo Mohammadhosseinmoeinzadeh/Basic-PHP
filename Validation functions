@@ -1,0 +1,36 @@
+functions => isset( )
+
+
+$a = 5; 
+if (isset($a)) {
+echo “True”; 
+}
+else{
+echo “False”; 
+}
+
+-----------------------------------------------------
+functions => empty( )
+
+
+if(empty($_GET[‘n’])) 
+{
+echo “fill your name first”;
+}
+else
+{
+echo “welcome “.$_GET[‘n’];
+}
+----------------------------------------------------
+functions => exit()
+
+If ($pass !=$pass2)
+exit(“رمز و تکرار رمز مطابقت ندارد”);
+----------------------------------------------------
+functions => filter 
+
+If(filter_var($mail, FILTER_VALIDATE_EMAIL)===false)
+exit(“ایمیل وارد شده صحیح نیست”);
+
+
+
