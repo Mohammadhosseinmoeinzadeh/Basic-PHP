@@ -4,7 +4,7 @@ foreach ($array as $value)
 } 
 
 
-exampele =>
+example =>
 <?php
 $a=['one','tow','three'];
 	foreach($a as $b) {
