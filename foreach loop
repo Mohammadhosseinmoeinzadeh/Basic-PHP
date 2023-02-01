@@ -1,0 +1,21 @@
+foreach ($array as $value)
+{
+
+} 
+
+
+exampele =>
+<?php
+$a=['one','tow','three'];
+	foreach($a as $b) {
+		echo($b."<br>");
+	}
+?>
+
+Display index => using (=>) between two variables 
+<?php
+$a=['a','b','c','d'];
+	foreach($a as $b => $c){
+		echo "key is =>" .$b ."  ". "name is =>" . $c . "<br>";
+	}
+?>
