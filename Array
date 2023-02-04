@@ -6,7 +6,7 @@ $array[ ] = 'Three';
 echo '<pre>';
 print_r($array);
 
-
+?>
 output ==>
 
 Array
@@ -15,4 +15,4 @@ Array
     [1] => Two
     [2] => Three
 )
-?>
+
