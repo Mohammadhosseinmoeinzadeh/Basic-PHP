@@ -1,3 +1,4 @@
+<?php
 $array = [ ];
 $array[ ] = 'One';
 $array[ ] = 'Two';
@@ -14,3 +15,4 @@ Array
     [1] => Two
     [2] => Three
 )
+?>
