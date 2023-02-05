@@ -1,2 +1,4 @@
+<?php
 $array = ['One', 'Two', 'Three'];
  echo count($array);
+?>
