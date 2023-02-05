@@ -2,20 +2,22 @@ GET Method => variable name = $_GET[“element name”];
 POST Method => variable name = $_POST[“element name”];
 
 HTML Code =>
-
+<html>
+	<body>
 <form action="index2.php" method="post">
 	<label>enter user name: </label><input type="text" name="user"><hr>
 		<label>enter email: </label><input type="email" name="email"><hr>
 		<label>enter password: </label><input type="password" name="pass"><hr>
 		<input type="submit" value="send">
 	</form>
-
+	</body>
 PHP Code =>
-
-  $user=$_POST["user"];
+<?php
+	$user=$_POST["user"];
 	$email=$_POST["email"];
 	$pass=$_POST["pass"];
 	echo $user.'<hr>';
 	echo $email.'<hr>';
 	echo $pass.'<hr>';
 
+?>
