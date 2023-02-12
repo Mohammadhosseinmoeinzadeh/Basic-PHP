@@ -1,4 +1,4 @@
-# CakePHP 3
+ CakePHP 3
 
 /vendor/*
 /config/app.php
@@ -17,7 +17,7 @@
 /logs/*
 !/logs/empty
 
-# CakePHP 2
+ CakePHP 2
 
 /app/tmp/*
 /app/Config/core.php
