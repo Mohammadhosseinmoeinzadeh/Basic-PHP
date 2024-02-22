@@ -4,4 +4,4 @@ Introductory PHP codes for students
 
 This repository was created only for students of Rahbord Academy's php course
 
-![not image](https://github.com/Mohammadhosseinmoeinzadeh/Basic-PHP/blob/main/PHP.jpeg)
+<img src="https://github.com/Mohammadhosseinmoeinzadeh/Basic-PHP/blob/main/PHP.jpeg" alt="not image" width="200" height="200">
